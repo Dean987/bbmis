@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MIS相關工作介紹</title>
+
+	<style type="text/css">
+		* { 
+			font-family: "標楷體"; }
+
+		header { 
+			font-size: 36px;
+			color: blueviolet; }
+
+		.col-lg-4 {
+			border: 1px solid; }
+
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<script>
+		$(document).ready(function(){
+			$("#company").hover(function(){
+				$("#PICTURE").attr("src","/static/soetek01.jpg");
+			});
+
+			$("#PICTURE").click(function(){
+				$("#PICTURE").hide();
+				$("#PICTURE").fadeIn("slow")
+			});
+		});
+		</script>
+
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-white navbar-light">
+	<a class="navbar-brand" href="#">選單</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#COMPANY">公司資訊</a></li>
+			<li class="nav-item"><a class="nav-link" href="#worker">職務介紹</a></li>
+			<li class="nav-item"><a class="nav-link" href="#need">工作條件需求</a></li>
+		</ul>
+	</div>
+	</nav>
+
+	<main class="container-fluid bg-dark text-white text-center">
+
+		<nav>
+			<h1><a href="https://www.facebook.com/people/%E7%A2%A9%E7%9B%8A%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100069675771544/"target="_blank"id="company">碩益科技股份有限公司 </a></h1>
+		</nav>
+
+		<img src="static/soetek.jpg" alt="照片"class="img-fluid rounded-circle"width="500" height="500"id="PICTURE">
+		<br><br><br>
+
+		<div class="row">
+			<session id="COMPANY" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">公司資訊</header>
+				<h3>公司名：碩益科技股份有限公司<br>
+				地址：106台北市大安區光復南路102號9樓<br>
+				服務/商品：</h3>
+				<h4>【系統建置與導入】</h4>
+				<h4>【系統客製化】</h4>
+				<h4>【流程自動化】</h4>
+				<h4>【智慧分析】</h4>
+				<h3>公司介紹：</h3>
+				<h4><br>聚焦於企業流程再造與作業管理優化，於 2002 年成立碩益科技股份有限公司，以 ERP 作為切入點，本公司使用之 ERP 系統軟體為全世界第一品牌—SAP，歷經十餘年市場考驗與發展，在業界已成長為提供 ERP 系統導入及客製化程式開發之整合性服務公司。本公司顧問陣容具備不同產業別系統導入及開發經驗，針對客戶資訊系統需求提供解決方案，信守與並加以實現對客戶之承諾。本公司客戶涵蓋之產業類別包括汽車、電子、半導體、電機、化學、營建、製藥、美容、百貨、服務、娛樂與食品通路業等，如化學產業—以微服務架構協助開發客戶對外線上下單平台，提供自動撈取 SAP 系統資料及建立 SAP 系統訂單功能，達成兩系統訂單作業流程整合<br></h4>
+			</session>
+
+			<article id="worker" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">職務介紹</header> 
+				<h3>MIS程式設計師、<br>
+					軟體設計工程師<br></h3>
+			</article>
+			
+			<aside id="need" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">
+				工作條件需求</a></header>
+				<h3>【工作經歷】：</h3><h4>兩年以上</h4>
+				<h3>【學歷要求】：</h3><h4>專科大專碩士</h4>
+				<h3>【科系要求】：</h3><h4>大學以上</h4>
+				<h3>【科系要求】：</h3><h4>資訊工程相關、其他數學及電算機科學相關、資訊管理相關</h4>
+				<h3>【語文條件】：</h3><h4>英文 -聽 /中等、說 /中等、讀 /中等、寫 /中等</h4>
+				<h3>【擅長工具】：</h3><h4>Systems Analysis</h4>
+			</aside>
+		</div><br><br>
+		
+		<footer>
+			Copyright ©  陳俊祥. All Rights Reserved.
+		</footer>
+		
+	</main>
+</body>
+</html>
